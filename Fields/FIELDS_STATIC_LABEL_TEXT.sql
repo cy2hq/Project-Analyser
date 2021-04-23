@@ -1,3 +1,4 @@
+/* fields with static label text in project */
 SELECT * 
 FROM PSPNLFIELD A,
   PSPNLFIELDEXT B,

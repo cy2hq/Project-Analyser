@@ -1,0 +1,11 @@
+/* Fluid style classes for page fields */
+select A.PNLNAME, A.RECNAME, A.FIELDNAME, A.FIELDNUM, B.ffstylelong  from pspnlfielD A
+, pspnlfieldEXT B WHERE B.ffstylelong not like ' | | | | ' AND B.ffstylelong not like ' '
+AND A.PNLNAME = B.PNLNAME 
+AND A.PNLFLDID = B.PNLFLDID
+AND EXISTS(
+SELECT 'X' FROM 
+PSPROJECTITEM C
+  WHERE  C.OBJECTTYPE = 5
+     AND A.PNLNAME = C.OBJECTVALUE1
+        AND C.PROJECTNAME = 'CY2_LOGIN_001');
