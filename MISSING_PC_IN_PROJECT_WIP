@@ -17,3 +17,8 @@
    AND A.PROJECTNAME = 'CY2_AD_FL_201'
    and not exists(SELECT 'x' from PSAPPCLASSDEFN C where B.REFNAME = C.PACKAGEROOT) 
    
+
+need to rewrite to say: 
+check for component / record / app class peoplecodes that are changed after a certain date 
+and where there are "anchors" in the project
+AND A.LASTUPDDTTM >= %DATETIMEIN(:2)
