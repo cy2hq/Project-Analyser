@@ -6,6 +6,8 @@ what can we search for
 new ideas: 
 - translate values that do not exist in fields in the project
 - translate values that do not exist in the database
+- key fields that are not required on the record.
+- APPLICATION PACKAGE SUBPACKAGES MISSING FROM THE PROJECT
 
 
 /* TRANSLATE VALUES WITHOUT MATCHING FIELDS IN THE PROJECT */
