@@ -8,6 +8,9 @@ new ideas:
 - translate values that do not exist in the database
 - key fields that are not required on the record.
 - APPLICATION PACKAGE SUBPACKAGES MISSING FROM THE PROJECT
+- peoplecodes that do not exist anymore in the database 
+- SQL IDs that do not exist in the database (record views and standalone SQL )
+- portal registry structures without a parent portal registry structure in the project 
 
 
 /* TRANSLATE VALUES WITHOUT MATCHING FIELDS IN THE PROJECT */
